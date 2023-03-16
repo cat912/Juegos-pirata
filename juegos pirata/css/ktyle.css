@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/939433370338176755/2440B3B85C5EEDD3DA222BCB3DA5571DF9AEA8E7/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    background-size: 100%;
+}
+
+section{
+    position: relative;
+}
+
+.container{
+    width: 90%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.container-full{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.fila{
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columna{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.columna-100{
+    width: 100%;
+}
+
+.columna-50{
+    width: 50%;
+}
+
+#descripciones{
+
+}
+
+#descripciones .columna-descripciones{
+
+}
+
+#descripciones .columna-descripciones .contenedor-descripciones-imagen iframe{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+}
+
+#descripciones .botonXD{
+    margin-top: 50px;
+}
+
+#descripciones .columna-descripciones-info h2{
+    display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 58%;
+	background: #141414;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 500;
+	border: none;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+
